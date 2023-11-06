@@ -1,1 +1,46 @@
-style
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-menu {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.menu-toggle {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-items {
+  list-style: none;
+  padding: 0;
+  display: none;
+}
+
+.menu-items li {
+  border-bottom: 1px solid #555;
+}
+
+.menu-items li:last-child {
+  border-bottom: none;
+}
+
+.menu-items a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-items a:hover {
+  background-color: #555;
+}
